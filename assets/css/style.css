@@ -11,8 +11,7 @@ body {
 }
 
 /* general */
-
-.container {
+.wrapper {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -52,7 +51,7 @@ h3 {
 
 /* header */
 
-#masthead {
+#masthead1 {
   position: fixed;
   z-index: 99;
   width: 100%;
