@@ -21,6 +21,30 @@
 }
 
 /* Portfolio */
+/* Animation of Jumbotron */
+#jumbo1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Image gallery styles to put text on images */
 .figContainer {
   position: relative;
   text-align: center;
