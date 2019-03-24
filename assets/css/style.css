@@ -11,6 +11,16 @@
   border-radius: 0;
 }
 
+/* About me */
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* Portfolio */
 .figContainer {
   position: relative;
   text-align: center;
@@ -25,7 +35,6 @@
 }
 
 /* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
